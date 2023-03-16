@@ -1,0 +1,62 @@
+{
+  "detalles": {
+    "id": "07E971685X217932H",
+    "intent": "CAPTURE",
+    "status": "COMPLETED",
+    "purchase_units": [
+      {
+        "reference_id": "default",
+        "amount": { "currency_code": "USD", "value": "513000.00" },
+        "payee": {
+          "email_address": "sb-8x7ax22292829@business.example.com",
+          "merchant_id": "8YLB3V5LTMXWY"
+        },
+        "soft_descriptor": "PAYPAL *TEST STORE",
+        "shipping": {
+          "name": { "full_name": "John Doe" },
+          "address": {
+            "address_line_1": "Free Trade Zone",
+            "admin_area_2": "Bogota",
+            "admin_area_1": "Bogota",
+            "postal_code": "110111",
+            "country_code": "CO"
+          }
+        },
+        "payments": {
+          "captures": [
+            {
+              "id": "89P38982KJ484801N",
+              "status": "COMPLETED",
+              "amount": { "currency_code": "USD", "value": "513000.00" },
+              "final_capture": true,
+              "seller_protection": {
+                "status": "ELIGIBLE",
+                "dispute_categories": [
+                  "ITEM_NOT_RECEIVED",
+                  "UNAUTHORIZED_TRANSACTION"
+                ]
+              },
+              "create_time": "2023-02-13T03:21:52Z",
+              "update_time": "2023-02-13T03:21:52Z"
+            }
+          ]
+        }
+      }
+    ],
+    "payer": {
+      "name": { "given_name": "John", "surname": "Doe" },
+      "email_address": "sb-lza0j22305655@personal.example.com",
+      "payer_id": "GJB7FXHB9S3TW",
+      "address": { "country_code": "CO" }
+    },
+    "create_time": "2023-02-13T03:21:44Z",
+    "update_time": "2023-02-13T03:21:52Z",
+    "links": [
+      {
+        "href": "https://api.sandbox.paypal.com/v2/checkout/orders/07E971685X217932H",
+        "rel": "self",
+        "method": "GET"
+      }
+    ]
+  }
+}
