@@ -186,7 +186,7 @@ crossorigin="anonymous"></script>
         },
 
         onCancel: function(data){
-            alert("Pago Cancelado");
+            alert("Pago Cancelado");  
             console.log(data);
         }
     }).render('#paypal-button-container');
