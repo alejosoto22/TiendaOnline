@@ -19,7 +19,7 @@ try {
     $mail->Host       = 'smtp.gmail.com';   // Este es el que usa Google (verificar el del dominio de la empresa)                  
     $mail->SMTPAuth   = true;                                   
     $mail->Username   = 'alejandro.soto@utp.edu.co';                     
-    $mail->Password   = 'Karenhellen22';                               
+    $mail->Password   = '****';                               
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
     $mail->Port       = 465;                  // use 587 `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 

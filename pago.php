@@ -181,7 +181,7 @@ crossorigin="anonymous"></script>
                         detalles: detalles
                     })
                 }).then(function(response){
-                    window.location.href = "completado.html";
+                    window.location.href = "completado.php?key=" + detalles['id']; // $datos['detalles']['id']
 
                 })
             });
