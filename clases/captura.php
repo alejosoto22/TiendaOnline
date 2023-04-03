@@ -50,6 +50,7 @@ if(is_array($datos)){
         unset($_SESSION['carrito']);
 
     }
+    include 'enviar_email.php';
 
 }
 
